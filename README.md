@@ -10,24 +10,36 @@ This project involves the exploration and visualization of sales and cost of goo
 
 <h2>Program walk-through:</h2>
 
-- <b>Topology: <b/> 
-<br/>
-<img src="https://imgur.com/2eVn2GF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br/>
 
-- <b>Enabled port security on F0/1 and F0/2 on the switch and set the maximum devices that can access the ports to one so only PC 1 and PC 2 in our topology can access these ports.
-- Secured the ports so that the MAC address of a device is dynamically learned and added to the running configuration.
-- Set the violation mode so that the F0/1 and F0/2 are not disabled when a violation occurs, but a notification of the security violation is generated, and packets from the unknown source are dropped.
-- Disabled all the remaining unused ports:
+- <b> Treemap: The US customer with the highest gross margin is Beantown Bikes, with USD3,123,947 in gross margin. This is expected because they are the highest-grossing US customer with a revenue of $9,587,470 accruing from them:
+<b/> 
 <br/>
-<img src="https://imgur.com/9k1HCTt.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/5lVhpNm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br/>
+
+<br/>
+
+- <b> Heat Map: Used a Heat Map to visualize seasonality in the dataset. At a glance, there is seasonality in the summer months. While the highest revenue is achieved in June, the lowest revenue was between November through February:
+<br/>
+<img src="https://imgur.com/O1Yu5p1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+
+<br />
+
+- <b> Bar Chart: Used a Bar Chart to visualize seasonality in the dataset. At a glance, there is seasonality in the summer months. While the highest revenue is achieved in June, the lowest revenue was between November through February:
+<br/>
+<img src="https://imgur.com/zEaog9D.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+
+<br />
+
+- <b> Bubble chart: This is useful for comparison. Here, I compared Revenue, Product and Discount per customer. Bavaria Bikes had the highest revenue of USD6,900,468 in the period and got the highest discount of USD265,906:
+- <br/>
+<img src="https://imgur.com/gB0wctj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Verify port security is enabled and the MAC addresses of PC1 and PC2 were added to the running configuration: <br/>
-<img src="https://imgur.com/RREJ8BA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-A Rogue laptop was connected to port F0/2, this was flagged as a violation as only PC2 is allowed to connect to F0/2. Therefore, the rogue laptop could not ping PC1:  <br/>
+- <b> A Rogue laptop was connected to port F0/2, this was flagged as a violation as only PC2 is allowed to connect to F0/2. Therefore, the rogue laptop could not ping PC1:  <br/>
 <img src="https://imgur.com/t8yKBMS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br/>
