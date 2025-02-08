@@ -48,7 +48,7 @@ This project involves the exploration and visualization of sales and cost of goo
 
 <br />
  
-- <b> United States had the highest net sales of USD63,281,614, followed by Germany:
+- <b> Geographic Map: United States had the highest net sales of USD63,281,614, followed by Germany:
 <br/>
 <img src="https://imgur.com/HZ3BOga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br/>
